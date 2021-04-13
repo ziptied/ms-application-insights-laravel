@@ -1,4 +1,4 @@
-# Microsoft Application Insights for Laravel 5/6/7
+# Microsoft Application Insights for Laravel
 
 A simple Laravel implementation for [Microsoft Application Insights](http://azure.microsoft.com/en-gb/services/application-insights/)
 
@@ -127,6 +127,9 @@ AIServer::flush();
 See the [ApplicationInsights-PHP](https://github.com/Microsoft/ApplicationInsights-PHP) page for more information on the available methods.
 
 ## Version History
+
+### 1.2.0
+- Added support for Laravel 8
 
 ### 1.1.0
 - Added support for Laravel 7
