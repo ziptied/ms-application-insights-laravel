@@ -3,22 +3,20 @@
     "description": "Microsoft Azure Application Insights for Laravel 5",
     "license": "MIT",
     "keywords": ["Laravel", "Microsoft", "Azure", "Application Insights", "monitoring", "logging"],
-    "authors": [
-        {
-            "name": "Chris March",
-            "email": "marchie@marchie.net",
-            "homepage": "http://www.marchie.net",
-            "role": "Developer"
-        }
-    ],
+    "authors": [{
+        "name": "Chris March",
+        "email": "marchie@marchie.net",
+        "homepage": "http://www.marchie.net",
+        "role": "Developer"
+    }],
     "require": {
         "php": "^7.3",
-        "laravel/framework": "^8.0",
-        "microsoft/application-insights": "~0.4"
+        "laravel/framework": "^8.0"
     },
     "autoload": {
         "psr-4": {
-            "Marchie\\MSApplicationInsightsLaravel\\": "src/"
+            "Marchie\\MSApplicationInsightsLaravel\\": "src/",
+            "ApplicationInsights\\": "packages/microsoft-application-insights/ApplicationInsights/"
         }
     },
     "extra": {
@@ -32,4 +30,5 @@
             }
         }
     }
+
 }

@@ -6,6 +6,7 @@ use Marchie\MSApplicationInsightsLaravel\MSApplicationInsightsHelpers;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Throwable;
 
 class MSApplicationInsightsExceptionHandler extends ExceptionHandler
 {
@@ -30,7 +31,7 @@ class MSApplicationInsightsExceptionHandler extends ExceptionHandler
      * @param  \Exception  $e
      * @return void
      */
-    public function report(Exception $e)
+    public function report(Throwable $e)
     {
         foreach ($this->dontReport as $type)
         {
