@@ -2,10 +2,10 @@
 namespace Marchie\MSApplicationInsightsLaravel;
 
 use Exception;
-use GuzzleHttp\Exception\RequestException;
+use Illuminate\Http\Client\RequestException;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Symfony\Component\HttpFoundation\StreamedResponse;
+use Throwable;
 
 class MSApplicationInsightsHelpers
 {
@@ -75,7 +75,7 @@ class MSApplicationInsightsHelpers
      *
      * @param Exception $e
      */
-    public function trackException(Exception $e)
+    public function trackException(Throwable $e)
     {
         if ($this->telemetryEnabled()) {
             $this->msApplicationInsights->telemetryClient->trackException($e,
