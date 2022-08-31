@@ -21,7 +21,7 @@ Add the service provider to the *providers* array in your application's **config
 ```php
 'providers' => [
 	...
-	ziptied\MSApplicationInsightsLaravel\Providers\MSApplicationInsightsServiceProvider::class,
+	Ziptied\MSApplicationInsightsLaravel\Providers\MSApplicationInsightsServiceProvider::class,
 	...
 ]
 ```
@@ -33,8 +33,8 @@ Add the facades to the *aliases* array in your application's **config/app.php** 
 ```php
 'aliases' => [
 	...
-	'AIClient' => ziptied\MSApplicationInsightsLaravel\Facades\MSApplicationInsightsClientFacade::class,
-	'AIServer' => ziptied\MSApplicationInsightsLaravel\Facades\MSApplicationInsightsServerFacade::class,
+	'AIClient' => Ziptied\MSApplicationInsightsLaravel\Facades\MSApplicationInsightsClientFacade::class,
+	'AIServer' => Ziptied\MSApplicationInsightsLaravel\Facades\MSApplicationInsightsServerFacade::class,
 	...
 ]
 ```
