@@ -14,18 +14,6 @@ Update the `require` section of your application's **composer.json** file:
 }
 ```
 
-### Service Provider
-
-Add the service provider to the *providers* array in your application's **config/app.php** file:
-
-```php
-'providers' => [
-	...
-	Ziptied\MSApplicationInsightsLaravel\Providers\MSApplicationInsightsServiceProvider::class,
-	...
-]
-```
-
 ### Facade
 
 Add the facades to the *aliases* array in your application's **config/app.php** file:
