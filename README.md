@@ -9,7 +9,7 @@ Update the `require` section of your application's **composer.json** file:
 ```js
 "require": {
 	...
-	"marchie/ms-application-insights-laravel": "^0.2",
+	"ziptied/ms-application-insights-laravel": "^0.2",
 	...
 }
 ```
@@ -21,7 +21,7 @@ Add the service provider to the *providers* array in your application's **config
 ```php
 'providers' => [
 	...
-	Marchie\MSApplicationInsightsLaravel\Providers\MSApplicationInsightsServiceProvider::class,
+	ziptied\MSApplicationInsightsLaravel\Providers\MSApplicationInsightsServiceProvider::class,
 	...
 ]
 ```
@@ -33,8 +33,8 @@ Add the facades to the *aliases* array in your application's **config/app.php** 
 ```php
 'aliases' => [
 	...
-	'AIClient' => Marchie\MSApplicationInsightsLaravel\Facades\MSApplicationInsightsClientFacade::class,
-	'AIServer' => Marchie\MSApplicationInsightsLaravel\Facades\MSApplicationInsightsServerFacade::class,
+	'AIClient' => ziptied\MSApplicationInsightsLaravel\Facades\MSApplicationInsightsClientFacade::class,
+	'AIServer' => ziptied\MSApplicationInsightsLaravel\Facades\MSApplicationInsightsServerFacade::class,
 	...
 ]
 ```

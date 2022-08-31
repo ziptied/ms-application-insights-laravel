@@ -1,5 +1,5 @@
 <?php
-namespace Marchie\MSApplicationInsightsLaravel\Exceptions;
+namespace Ziptied\MSApplicationInsightsLaravel\Exceptions;
 
 class MSApplicationInsightsException extends \Exception
 {

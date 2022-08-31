@@ -1,4 +1,4 @@
-<?php namespace Marchie\MSApplicationInsightsLaravel;
+<?php namespace Ziptied\MSApplicationInsightsLaravel;
 
 class MSApplicationInsightsClient extends InstrumentationKey
 {

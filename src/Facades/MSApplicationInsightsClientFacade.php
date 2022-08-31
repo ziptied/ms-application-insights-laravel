@@ -1,4 +1,4 @@
-<?php namespace Marchie\MSApplicationInsightsLaravel\Facades;
+<?php namespace Ziptied\MSApplicationInsightsLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

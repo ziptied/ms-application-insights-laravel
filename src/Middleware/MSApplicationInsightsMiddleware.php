@@ -1,8 +1,8 @@
 <?php
-namespace Marchie\MSApplicationInsightsLaravel\Middleware;
+namespace Ziptied\MSApplicationInsightsLaravel\Middleware;
 
 use Closure;
-use Marchie\MSApplicationInsightsLaravel\MSApplicationInsightsHelpers;
+use Ziptied\MSApplicationInsightsLaravel\MSApplicationInsightsHelpers;
 
 class MSApplicationInsightsMiddleware
 {

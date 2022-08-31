@@ -1,5 +1,5 @@
 <?php
-namespace Marchie\MSApplicationInsightsLaravel;
+namespace Ziptied\MSApplicationInsightsLaravel;
 
 use ApplicationInsights\Telemetry_Client;
 

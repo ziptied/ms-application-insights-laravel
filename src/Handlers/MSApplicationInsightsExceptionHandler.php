@@ -1,8 +1,8 @@
 <?php
-namespace Marchie\MSApplicationInsightsLaravel\Handlers;
+namespace Ziptied\MSApplicationInsightsLaravel\Handlers;
 
 use Exception;
-use Marchie\MSApplicationInsightsLaravel\MSApplicationInsightsHelpers;
+use Ziptied\MSApplicationInsightsLaravel\MSApplicationInsightsHelpers;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

@@ -1,7 +1,7 @@
 <?php
-namespace Marchie\MSApplicationInsightsLaravel;
+namespace Ziptied\MSApplicationInsightsLaravel;
 
-use Marchie\MSApplicationInsightsLaravel\Exceptions\InvalidMSInstrumentationKeyException;
+use Ziptied\MSApplicationInsightsLaravel\Exceptions\InvalidMSInstrumentationKeyException;
 
 class InstrumentationKey
 {

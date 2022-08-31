@@ -1,5 +1,5 @@
 <?php
-namespace Marchie\MSApplicationInsightsLaravel;
+namespace Ziptied\MSApplicationInsightsLaravel;
 
 use Exception;
 use Illuminate\Http\Client\RequestException;

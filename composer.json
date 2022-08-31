@@ -15,18 +15,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Marchie\\MSApplicationInsightsLaravel\\": "src/",
+            "Ziptied\\MSApplicationInsightsLaravel\\": "src/",
             "ApplicationInsights\\": "packages/microsoft-application-insights/ApplicationInsights/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Marchie\\MSApplicationInsightsLaravel\\Providers\\MSApplicationInsightsServiceProvider"
+                "Ziptied\\MSApplicationInsightsLaravel\\Providers\\MSApplicationInsightsServiceProvider"
             ],
             "aliases": {
-                "AIClient": "Marchie\\MSApplicationInsightsLaravel\\Facades\\MSApplicationInsightsClientFacade",
-                "AIServer": "Marchie\\MSApplicationInsightsLaravel\\Facades\\MSApplicationInsightsServerFacade"
+                "AIClient": "Ziptied\\MSApplicationInsightsLaravel\\Facades\\MSApplicationInsightsClientFacade",
+                "AIServer": "Ziptied\\MSApplicationInsightsLaravel\\Facades\\MSApplicationInsightsServerFacade"
             }
         }
     }

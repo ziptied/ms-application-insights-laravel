@@ -1,11 +1,11 @@
-<?php namespace Marchie\MSApplicationInsightsLaravel\Providers;
+<?php namespace Ziptied\MSApplicationInsightsLaravel\Providers;
 
 use ApplicationInsights\Telemetry_Client;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-use Marchie\MSApplicationInsightsLaravel\Middleware\MSApplicationInsightsMiddleware;
-use Marchie\MSApplicationInsightsLaravel\MSApplicationInsightsClient;
-use Marchie\MSApplicationInsightsLaravel\MSApplicationInsightsHelpers;
-use Marchie\MSApplicationInsightsLaravel\MSApplicationInsightsServer;
+use Ziptied\MSApplicationInsightsLaravel\Middleware\MSApplicationInsightsMiddleware;
+use Ziptied\MSApplicationInsightsLaravel\MSApplicationInsightsClient;
+use Ziptied\MSApplicationInsightsLaravel\MSApplicationInsightsHelpers;
+use Ziptied\MSApplicationInsightsLaravel\MSApplicationInsightsServer;
 
 class MSApplicationInsightsServiceProvider extends LaravelServiceProvider {
 
