@@ -13,6 +13,12 @@ Update the `require` section of your application's **composer.json** file:
 	...
 }
 ```
+### Spec Requirements
+
+- Php 8.1 or newer is required
+- Laravel 8.7+ or 9.0+ is required.
+
+
 
 ### Facade
 
@@ -115,6 +121,10 @@ AIServer::flush();
 See the [ApplicationInsights-PHP](https://github.com/Microsoft/ApplicationInsights-PHP) page for more information on the available methods.
 
 ## Version History
+
+### 1.3.0
+- Added support for Laravel 8.7 and 9
+- Changed namespace due to collisions
 
 ### 1.2.0
 - Added support for Laravel 8
