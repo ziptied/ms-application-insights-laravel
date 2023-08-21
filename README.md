@@ -122,6 +122,9 @@ See the [ApplicationInsights-PHP](https://github.com/Microsoft/ApplicationInsigh
 
 ## Version History
 
+### 1.3.1
+- Added support for Laravel 10
+
 ### 1.3.0
 - Added support for Laravel 8.7 and 9
 - Changed namespace due to collisions
