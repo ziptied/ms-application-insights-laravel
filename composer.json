@@ -1,6 +1,6 @@
 {
     "name": "ziptied/ms-application-insights-laravel",
-    "description": "Microsoft Azure Application Insights for Laravel 5",
+    "description": "Microsoft Azure Application Insights for Laravel",
     "license": "MIT",
     "keywords": ["Laravel", "Microsoft", "Azure", "Application Insights", "monitoring", "logging"],
     "authors": [{
