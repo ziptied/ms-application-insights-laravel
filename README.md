@@ -16,7 +16,7 @@ Update the `require` section of your application's **composer.json** file:
 ### Spec Requirements
 
 - Php 8.1 or newer is required
-- Laravel 8.7+ or 9.0+ is required.
+- Laravel 8.7+, 9.0+ or 10.0+ is required.
 
 
 
